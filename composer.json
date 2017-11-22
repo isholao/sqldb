@@ -1,0 +1,30 @@
+{
+    "name": "isholao/sqldb",
+    "type": "library",
+    "keywords": ["php database pdo", "pdo"],
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/isholao/sqldb",
+    "authors": [
+        {
+            "name": "Ishola O",
+            "email": "ishola.tolu@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\Isholao\\SqlDb\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "\\Isholao\\SqlDb\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "v6.4"
+    }
+}
